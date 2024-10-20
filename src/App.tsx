@@ -1,4 +1,3 @@
-import React from 'react'
 import { Route, BrowserRouter as Router, Routes,} from 'react-router-dom'
 import Sidebar from './components/sidebar/Sidebar'
 import ChartsPage from './components/pages/ChartsPage';
