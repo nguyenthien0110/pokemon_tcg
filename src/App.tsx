@@ -5,6 +5,7 @@ import MapsPage from './components/pages/MapsPage';
 import ComponentsPage from './components/pages/ComponentsPage';
 import ECommercePage from './components/pages/ECommercePage';
 import CalendarPage from './components/pages/CalendarPage';
+import SearchPage from './components/pages/SearchPage';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Sidebar />
         <div className="content">
           <Routes>
+          <Route path="/Search" element={<SearchPage />} />
             <Route path="/charts" element={<ChartsPage />} />
             <Route path="/maps" element={<MapsPage />} />
             <Route path="/components" element={<ComponentsPage />} />
